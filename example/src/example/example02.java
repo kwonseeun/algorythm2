@@ -14,7 +14,7 @@ public class example02 {
 			System.out.println("잘못된 숫자가 입력되었습니다.");
 			
 		} for (int i = 1; i <= 9; i++) {
-			System.out.println("inputInt"+i+"*"+i +"="+ input * 1);
+			System.out.println("inputInt"+i+"*"+i +"="+ input * 1); 
 		}
 	}
 }
