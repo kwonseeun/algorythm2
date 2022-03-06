@@ -18,6 +18,7 @@ public class example03 {
 			}
 			 if (prime) {
 				System.out.println(i);
+				System.out.println("출력 되었습니다.");
 			}
 		}
 	}
