@@ -1,17 +1,17 @@
 package algorythm;
 
-public class example07 {
+import java.util.Scanner;
 
+public class example07 {
 	public static void main(String[] args) {
-		int i, j;
 		
-		int sum = 0;
-		
-		for(i = 1; i <= 9 ; i++) {
-			for(j = 1; j<= 9; j++) {
-				System.out.println(i + " * " + j + " = " + i * j );
-			}
+ Scanner sc = new Scanner(System.in);
+ 	int total = 0;
+ 	for (int i = 0; i <= 50; i++) {
+		if (i % 2 == 0) {
+			total += i;
 		}
 	}
-
+ 	System.out.println(total);
+	}
 }
