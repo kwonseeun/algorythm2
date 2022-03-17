@@ -23,7 +23,7 @@ public class Iterator02 {
 		
 		// for-each 문을 사용한 경우
 		for (String str : cars) {
-		     System.out.println(str);
+		     System.out.println(str); 
 		}		
 	}
 }
