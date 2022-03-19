@@ -38,8 +38,8 @@ public class example07 {
 			System.out.println(" == 시간 단위 비교 == ");
 			System.out.println("date1.truncatedTo(ChronoUnit.HOURS" + dayDate1);
 			System.out.println("date2.truncatedTo(ChronoUnit.HOURS" + dayDate2);
-			
-			return compareResult;
+			System.out.println( " 확인 ");
+			return compareResult;  
 		}
 	}
 
