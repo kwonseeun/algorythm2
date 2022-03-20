@@ -36,6 +36,8 @@ public class example01 {
 			System.out.println(sugar/3);
 		}else {
 			System.out.println(-1);
+			System.out.println("확인용");
+			
 		}
 		
 	}
