@@ -12,8 +12,6 @@ public class example14 {
 			if (a%i==0) {
 				System.out.println(i);
 			}
-		}
-		
+		}	
 	}
-
 }

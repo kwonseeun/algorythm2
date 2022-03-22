@@ -22,5 +22,4 @@ public class example11 {
 			System.out.println();
 		}
 	}
-
 }
