@@ -27,7 +27,6 @@ public static void main(String[] args) {
         System.out.println(listMap);
         // [{name=Bob, age=23}, {name=Shuan, age=31}]
         
-        
         // 'name'의 값을 치환한다.
         for (Map<String, Object> row : listMap) {
             String name = nullToBlank(row.get("name"));
