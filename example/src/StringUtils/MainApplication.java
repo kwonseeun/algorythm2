@@ -39,7 +39,7 @@ public static void main(String[] args) {
         // ### after ###
         System.out.println(listMap);
         // [{name=Mr.Bob, age=23}, {name=Mr.Shuan, age=31}]
- 
+  
     }
     
      public static String nullToBlank(Object comment) {
