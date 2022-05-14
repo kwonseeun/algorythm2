@@ -13,7 +13,7 @@ public class example03 {
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = i; j < arr.length; j++) {
 				if (arr[i] > arr[j]) {
-					int temp = arr[i];
+					int temp = arr[i]; 
 					arr[i] = arr[j];
 				} 
 			}

@@ -10,5 +10,19 @@ public class example04 {
 		for (int i = 0; i < 10; i++) {
 			arr[i] = sc.nextInt();
 		}
+		
+		int i, j, min, index, temp;
+		
+		for (int k = 0; k < 10; k++) {
+			min = 9999;
+			index = 0;
+			for (j=k; j <10; j++) {
+				if (min > arr[j]) {
+					min = arr[j];
+					index = j;
+				}
+			}
+			
+		}
 	}
 }
