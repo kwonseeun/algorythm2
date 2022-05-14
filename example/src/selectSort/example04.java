@@ -22,7 +22,13 @@ public class example04 {
 					index = j;
 				}
 			}
-			
+			temp = arr[k];
+			arr[k] = arr[index];
+			arr[index] = temp;
+		}
+		
+		for (int k = 0; k < 10; k++) {
+			System.out.println(arr[k] + "");
 		}
 	}
 }
