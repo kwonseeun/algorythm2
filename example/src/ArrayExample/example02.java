@@ -18,10 +18,18 @@ public class example02 {
 			data[i] = kb.nextInt();
 		kb.close();
 		
+		// 맨 마지막 값을 저장해둘 변수 생성 
 		int temp = data[n-1];
+		
 		// 거꾸로 1씩 감소 역순으로 
-		for (int i = n-1; i <= 0; i--) {
-			
+		for (int i = n-2; i >= 0; i--) { // 끝에서 두번째부터 
+			data[i+1] = data[i]; // i 를 한칸뒤로 보냈다. i+1번지로  
+		}
+		
+		data[0] = temp; //맨 마지막에 킵해뒀던 temp 를 0번째에 넣어준다. 
+		
+		for (int i = 0; i < n; i++) {
+			System.out.println(data[i]);
 		}
 		
 	}
