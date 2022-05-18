@@ -33,6 +33,10 @@ public class example07 {
 	 * String substring(int begin [, int end]): 문자열 잘라서 가져오기
 	 * begin만 주었을 경우 begin 부터 문자열 끝까지를 잘라서 리턴한다.
 	 * end 도 입력 했을때는 index가 begin <= index < end 의 문자열을 가져온다.
+	 * 범위를 벗어난 index를 입력했을 때는 StringIndexOutOfBoundsException 에러 발
 	 * 
-	 * 범위를 벗어난 index를 입력했을 때는 StringIndexOutOfBoundsException 에러 발*/
+	 * String[] split(String tok): 특정 문자를 경계로 문자열 자르기 
+	 * 구분자에 따라 문자열을 분리한 문자열 배열을 리턴한다
+	 * 구분자가 여럿 있을 경우 |를 사용하여 추가로 지정하면 된다.
+	 * 결과를 보면 ","로 잘랐을 떄와 ",|-"로 잘랐을 시 다른 결과를 갖는다. */
 }
