@@ -12,7 +12,7 @@ public class example07 {
 		System.out.println("a를 c로 바꾸기" + a.replace("a", "c"));
 		System.out.println("ab를 c로 바꾸기" + a.replace("ab", "c"));
 		
-		/**subString*/
+		/**subString, spli*/
 		System.out.println("subString(4)" + a.substring(4));
 		System.out.println("subString(0,4)" + a.substring(0, 4));
 		System.out.println("\n문자열 :" +b+ "\n---,로 문자열 분리---");
@@ -25,5 +25,14 @@ public class example07 {
 		for (String temp : str2) 
 			System.out.println(temp);
 	}
-
+	
+	/**String replace(String old, String new: 문자열 내 문자열 바꾸기
+	 * old 문자열을 new 문자열로 변환한다
+	 * old 문자열이 없을 경우에는 본래 문자열을 받는다.
+	 * 
+	 * String substring(int begin [, int end]): 문자열 잘라서 가져오기
+	 * begin만 주었을 경우 begin 부터 문자열 끝까지를 잘라서 리턴한다.
+	 * end 도 입력 했을때는 index가 begin <= index < end 의 문자열을 가져온다.
+	 * 
+	 * 범위를 벗어난 index를 입력했을 때는 StringIndexOutOfBoundsException 에러 발*/
 }
