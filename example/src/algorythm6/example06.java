@@ -25,4 +25,5 @@ public class example06 {
 			System.out.println("equals 함수 이용 str1과 str3은 다릅니다.");
 		}
 	}
-}
+} 
+   
