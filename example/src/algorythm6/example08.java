@@ -19,6 +19,14 @@ public class example08 {
 		System.out.println("length() :" + a.length());
 		System.out.println("toUpperCase() :" + a.toUpperCase());
 		System.out.println("toLowerCase()" + a.toLowerCase());
+		
+		/**char charAt(index index) : index의 문자 가져오기 
+		 * 해당 문자열의 입력한 인덱스의 문자를 리턴한다 
+		 * 범위 밖의 인덱스를 입력하면 에러가 발생한다 
+		 * 
+		 * int indexOf(String s [, int index]) : 문자열의 index 구하기 
+		 * 인수로 받은 문자(열)을 문자열에서 찾아서 index를 리턴 해준다
+		 * 해당 문자열이 없을 경우 -1 리턴 */
 	}
 
 }
