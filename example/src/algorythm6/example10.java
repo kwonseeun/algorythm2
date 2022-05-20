@@ -22,3 +22,4 @@ public class example10 {
 			return k;
 	}
 }
+

@@ -12,7 +12,6 @@ public class example06 {
 		}else {
 			System.out.println("str1과 str2는 다릅니다.");
 		}
-		
 		if (str1 == str3) {
 			System.out.println("str1과 str3은 같습니다.");
 		}else {
