@@ -12,6 +12,7 @@ public class example02 {
 			data[i] = sc.nextInt();
 		sc.close();
 		
+		
 		bubbleSort( n, data );
 		
 		System.out.println("Sorted data");
