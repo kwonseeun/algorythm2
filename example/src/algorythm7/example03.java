@@ -16,7 +16,7 @@ public class example03 {
 			for(int j = 0; j < num.length; j++) {
 				num[i][j] = ++sum;
 //				System.out.printf("%2d ", num[i][j]);
-			}
+			}   
 //			System.out.println();
 		}
 		Random random = new Random();
