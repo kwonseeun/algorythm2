@@ -54,5 +54,22 @@ public class jap {
 			System.out.println("메뉴 변경이 완료되었습니다.");
 		}
 		
+		//2. 가격 변경
+		else if(num ==2) {
+			System.out.println("가격을 변경하실 메뉴의 번호를 입력하세요(1~" + count + "): ");
+			int i = sc.nextInt();
+			System.out.println(box[i-1]+"의 가격을 얼마로 바꾸시겠습니까? :");
+			int j = sc.nextInt();
+			price[i-1] = j;
+			System.out.println("가격 변경이 완료되었습니다.");
+		}
+		// 3. 재고 추가 
+		else if (num == 3) {
+			System.out.println("재고를 추가하실 메뉴의 번호를 입력하세요(1~" + count + ") :");
+			int i = sc.nextInt();
+			System.out.println(box[i-1] + "를(을) 몇 개 추가 하시겠습니까? : ");
+			int j = sc.nextInt();
+			System.out.println("재고 추가가 완료되었습니다.");
+		}
 	}
 }
