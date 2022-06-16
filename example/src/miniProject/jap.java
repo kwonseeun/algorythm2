@@ -197,5 +197,3 @@ public static final int MAX = 10; // 메뉴의 최대 갯수 == 10
         
     }
 }
- 
-Colored by Color Scripter
