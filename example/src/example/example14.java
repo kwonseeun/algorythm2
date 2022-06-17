@@ -22,11 +22,15 @@ public class example14 {
 						return 02-01;
 					}
 				});
+				for(Integer i : ilist) {
+					strResult += String.valueOf(i);
+				}
+				answer = Long.parseLong(strResult);
+				return answer;
 			
 		}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 
