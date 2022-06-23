@@ -38,4 +38,16 @@ public class Cal {
 		}
 		return tmp;
 	}
+	//해당 월의 첫번쨰 요일 계산 
+	  private static int getDayOfWeek(int year, int month) { 
+	    int dayOfWeek = 0; 
+	    int sum = 0; 
+
+	    // 1.1.1 ~ year-1.12.31 
+	    for(int i = 1; i < year; i++) { 
+	      for(int j = 1; j <= 12; j++) { 
+	        sum += getDate(i, j); 
+	      } 
+	    }
+	 }   
 }
