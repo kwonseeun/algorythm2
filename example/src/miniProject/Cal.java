@@ -49,5 +49,43 @@ public class Cal {
 	        sum += getDate(i, j); 
 	      } 
 	    }
+
+	    //year.1.1 ~ year.month-1.마지막(31,30.29.28) 
+	    for(int k = 1; k < month; k++) { 
+	      sum += getDate(year, k); 
+	    } 
+
+	    //year.month.1일 
+	    sum += 1; 
+
+	    //요일 
+	    dayOfWeek = sum % 7;
+
+	    return dayOfWeek; 
+	  
 	 }   
+	  public static void prn(int year, int month) { 
+		    //달력 윗부분 출력 
+		    System.out.printf("\t\t%d년 %d월\n", year, month); 
+		    System.out.printf("일\t월\t화\t수\t목\t금\t토\n"); 
+
+		    //시작 요일 int start = DayOfCalendar.getDayOfWeek(year, month); 
+
+		    //마지막 날짜 
+		    int last = getDate(year, month); 
+
+		    //시작 요일만큼 빈공간 
+		    for(int i = 1; i <= start; i++) { 
+		      System.out.print("\t"); 
+		    } 
+
+		    //달력출력 
+		    for(int i = 1; i <= last; i++) { 
+		      System.out.printf("%d\t", i); 
+		      start++; 
+		      if(start%7 == 0) { 
+		        System.out.println(); 
+		      } 
+		    } 
+	  } 
 }
