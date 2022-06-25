@@ -18,6 +18,7 @@ public class ThreadTest {
 		System.out.println("MainThread Start");
 		for(int i=1;i<=3;i++){
 			new MyThread("Thread"+i).start();
+			System.out.println("a");
 		}
 	}
 	
