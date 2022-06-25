@@ -44,6 +44,19 @@ public class example12 {
 	       week=day%7; // 구하고자 하는 달의 시작일(1일)의 요일을 구함.
 	   
 	       System.out.printf("%s\t%s\t%s\t%s\t%s\t%s\t%s\t\n", "월", "화", "수", "목", "금", "토", "일");   
+	       for(i=0;i<week;i++) {
+	        System.out.print("\t"); // 1일이 시작하기 전 공백을 위한 반복문.
+	       }
+	       for(i=1;i<=monthSet[month-1];i++) {
+	        System.out.printf("%d\t", i); // i를 입력한 달의 일수만큼 찍음.
+	        week++;   
+	        if(week%7 == 0)        // 요일이 일요일이 지나면
+	         System.out.println(); // 줄을 바꿈.
+	    
+	       }
+	       if(week%7 != 0) {
+	        System.out.println();
+	       }
 	      }
 	  
 	 }
