@@ -74,18 +74,5 @@ public class Cal {
 		    //마지막 날짜 
 		    int last = getDate(year, month); 
 
-		    //시작 요일만큼 빈공간 
-		    for(int i = 1; i <= start; i++) { 
-		      System.out.print("\t"); 
-		    } 
-
-		    //달력출력 
-		    for(int i = 1; i <= last; i++) { 
-		      System.out.printf("%d\t", i); 
-		      start++; 
-		      if(start%7 == 0) { 
-		        System.out.println(); 
-		      } 
-		    } 
 	  } 
 }
