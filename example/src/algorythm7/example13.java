@@ -29,6 +29,24 @@ class example13
         queue.add(new Item(3, 6));
         queue.add(new Item(4, 8));
         queue.add(new Item(1, 1));
-
+        
+        // Poll & Peek
+        if(queue.size() != 0)
+            queue.poll();
+            
+        queue.add(new Item(7, 3));
+        queue.add(new Item(2, 6));
+        
+        // 단순 출력(정렬되어 있어도, 단순 출력은 정렬형태가 아님)
+        for(Item item : queue){
+            System.out.println(item.val1 + " : " + item.val2);
+        }
+        
+        
+        // Sort 확인
+        while(queue.size() != 0){
+            Item item = queue.poll();
+            System.out.println(item.val1 + " : " + item.val2);
+        }
     }
 }
