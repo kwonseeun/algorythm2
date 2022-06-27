@@ -70,7 +70,7 @@ public class Cal {
 		    System.out.printf("일\t월\t화\t수\t목\t금\t토\n"); 
 
 		    //시작 요일 int start = DayOfCalendar.getDayOfWeek(year, month); 
-
+ 
 		    //마지막 날짜 
 		    int last = getDate(year, month); 
 
