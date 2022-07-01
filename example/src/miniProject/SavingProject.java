@@ -22,10 +22,7 @@ public class SavingProject {
 	        } else if (balance > 0) {
 	            top = ret;
 	            ret -= (ret-low)/2;
-	        } else {
-	            low = ret;
-	            ret += (top-ret)/2;
-	        }
+	        } 
 	        
 	    }
 	    
