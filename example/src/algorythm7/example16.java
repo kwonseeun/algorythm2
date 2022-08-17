@@ -21,5 +21,10 @@ public class example16 {
 			}
 			cnt++; // 계속추첨 
 		}
+		
+		// 출력문 
+		for (int i = 0; i < lotto.length; i++) {
+			System.out.println(lotto[i] + " ");
+		}
 	}
 }
