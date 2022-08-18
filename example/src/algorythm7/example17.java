@@ -3,16 +3,25 @@ package algorythm7;
 public class example17 {
 
 	public static void main(String[] args) {
+		int lotto[] = new int [6];
 		
-		for(int i=1;i<5;i++){
-			for(int j=4;j>0;j--){
-				if(i<j){
-					System.out.print(" ");
-				}else{
-					System.out.print("*");
-				}
+ 	  	// 번호 생성
+	for(int i=0; i<6; i++) {
+		lotto[i] = (int)(Math.random() * 45) + 1;
+        
+   		  	 // 중복 번호 제거
+		for(int j=0; j<i; j++) {
+			if(lotto[i] == lotto[j]) {
+				i--;
+				break;
 			}
-			System.out.println("");
 		}
+	}
+	System.out.print("로또 번호: ");
+
+			 // 번호 출력
+		for(int i=0; i<6; i++) {
+			System.out.print(lotto[i] + " ");
+		}	
 	}
 }		
