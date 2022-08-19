@@ -13,6 +13,10 @@ public class example19 {
 		for (int i = 0; i < data.length; i++) {
 			data[i] = (i + 1);
 		}
+		
+		for (int i = 0; i < data.length; i++) {
+			System.out.println(data[i]);
+		}
 	}
 
 }
