@@ -16,8 +16,5 @@ public class example21 {
 		}
 		return answer;
 	}
-	
-	public static void main(String[] args) {
-		
-	}
+
 }
