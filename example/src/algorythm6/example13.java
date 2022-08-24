@@ -25,6 +25,10 @@ public class example13 {
 				maxEntry = entry;
 			}
 		}
+		
+		// Max Key, Value 출력 
+		System.out.println(maxEntry.getKey() + " " + maxEntry.getValue());
+		
 	}
 
 }
