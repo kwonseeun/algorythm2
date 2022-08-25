@@ -11,8 +11,10 @@ public class example15 {
 		ArrayList<Integer> list = new ArrayList<>(
 			Arrays.asList(50, 22, 33, 13, 25));
 		
-		int min = Collections.max(list);
-		int max = Collections.min(list);
+		Collections.sort(list);
+		
+		int min = list.get(0);
+		int max = list.get(list.size() - 1);
 		
 		System.out.println("min: " + min);
 		System.out.println("max: " + max);
