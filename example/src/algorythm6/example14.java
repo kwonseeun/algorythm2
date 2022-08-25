@@ -20,6 +20,10 @@ public class example14 {
 	
 	// Min Key
 	Integer minKey = Collections.min(map.keySet());
+	
+	// 결과 출력 
+	System.out.println(maxKey);
+	System.out.println(minKey);
 	}
 
 }
