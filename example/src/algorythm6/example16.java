@@ -18,6 +18,12 @@ public class example16 {
 			System.out.println(i + "번쨰: " + split[i]);
 		}
 	}
-	
+	public static void main (String[]args) {
+		String str = "apple,banana,kiwi";
+		
+		StringTokenizerTest(str);
+		System.out.println();
+		splitTest(str);
+	}
 
 }
