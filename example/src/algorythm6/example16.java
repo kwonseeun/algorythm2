@@ -11,5 +11,13 @@ public class example16 {
 			
 		}
 	}
+	
+	public static void splitTest(String str) {
+		String split[] = str.split(",");
+		for (int i = 0; i < split.length; i++) {
+			System.out.println(i + "번쨰: " + split[i]);
+		}
+	}
+	
 
 }
